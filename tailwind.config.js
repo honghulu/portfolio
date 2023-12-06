@@ -19,7 +19,7 @@ module.exports = {
       ...colors,
       primary: colors.green,
       secondary: colors.yellow,
-      gradientZero: colors.blue,
+      gradientZero: colors.red,
     },
   },
   plugins: [],
