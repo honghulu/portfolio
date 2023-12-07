@@ -2,12 +2,14 @@ import React from 'react';
 import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/solid";
 import Link from "next/link";
 
+const config = require("../../../next.config")
+
 const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl }) => {
     return (
         <div>
             <div
                 className="h-52 md:h-72 rounded-t-xl relative group"
-                style={{ background:`url(${basePath + imgUrl})`, backgroundSize: "cover" }}
+                style={{ background:`url(${config.basePath + imgUrl})`, backgroundSize: "cover" }}
             >
                 <div className="overlay items-center justify-center top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500">
                     <Link
