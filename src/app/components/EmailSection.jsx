@@ -3,8 +3,6 @@ import React, { useState } from 'react';
 import Link from "next/link";
 import Image from "next/image";
 
-const config = require("../../../next.config")
-
 const EmailSection = () => {
     const [emailSubmitted, setEmailSubmitted] = useState(false);
     const handleSubmit = async (e) => {
@@ -51,7 +49,7 @@ const EmailSection = () => {
                 <div className="socials flex flex-row gap-2">
                     <Link href="https://github.com/honghulu">
                         <Image
-                            src={`${config.basePath}/images/github-icon.svg`}
+                            src={`/images/github-icon.svg`}
                             width={48}
                             height={48}
                             alt="Github Icon"
@@ -59,7 +57,7 @@ const EmailSection = () => {
                     </Link>
                     <Link href="https://www.linkedin.com/in/honghu-luo/">
                         <Image
-                            src={`${config.basePath}/images/linkedin-icon.svg`}
+                            src={`/images/linkedin-icon.svg`}
                             width={48}
                             height={48}
                             alt="Linkedin Icon"
