@@ -3,8 +3,15 @@ import React from 'react';
 import Image from "next/image";
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from "framer-motion";
+import Link from "next/link";
+import useDownloader from "react-use-downloader";
 
 function HeroSection(props) {
+    const { download } = useDownloader();
+
+    const fileUrl = "/Honghu_Luo_Resume_SDE.pdf"
+    const filename = "Honghu_Luo_Resume_SDE.pdf"
+
     return (
         <section className="lg:py-16">
             <div className="grid grid-cols-1 lg:grid-cols-12">
@@ -40,12 +47,18 @@ function HeroSection(props) {
                         To him that does everything in its proper time, one day is worth three.
                     </p>
                     <div>
-                        <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-gradientZero-500 via-primary-500 to-secondary-500 hover:bg-slate-200 text-white">
+                        <Link
+                            href="/#contact"
+                            className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-gradientZero-500 via-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
+                        >
                             Hire Me
-                        </button>
-                        <button className="px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-gradientZero-500 via-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3">
-                            <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">Download CV</span>
-                        </button>
+                        </Link>
+                        <Link
+                            href={fileUrl}
+                            className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-gradientZero-500 via-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
+                        >
+                            <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">View CV</span>
+                        </Link>
                     </div>
                 </motion.div>
                 <motion.div
