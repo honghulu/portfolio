@@ -53,11 +53,11 @@ const projectsData = [
     {
         id: 1,
         title: "Song Style Transfer",
-        description: "on Fall 2021",
+        description: "Fall 2021",
         image: "/images/projects/1.png",
         tag: ["All", "ML"],
         gitUrl: "https://github.com/honghulu/Song-Style-Transfer/tree/main",
-        previewUrl: "https://github.com/honghulu/Song-Style-Transfer/tree/main",
+        previewUrl: "https://github.com/honghulu/Song-Style-Transfer/blob/main/README.md",
     },
 ]
 
@@ -108,7 +108,7 @@ const ProjectsSection = () => {
                         variants={cardVariants}
                         initial="initial"
                         animate={isInView ? "animate" : "initial"}
-                        transition={{ duration: 0.3, delay: index * 0.4 }}
+                        transition={{ duration: 0.3, delay: index * 0.3 }}
                     >
                         <ProjectCard
                             key={project.id}
