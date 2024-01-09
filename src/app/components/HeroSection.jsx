@@ -49,7 +49,7 @@ function HeroSection(props) {
                     <div>
                         <Link
                             href="/#contact"
-                            className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-gradientZero-500 via-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
+                            className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-gradientZero-500 via-primary-500 to-secondary-500 hover:bg-slate-200 text-white"
                         >
                             Hire Me
                         </Link>

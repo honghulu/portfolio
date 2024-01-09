@@ -6,7 +6,7 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
     {
-        id: 1,
+        id: 6,
         title: "React Portfolio Website",
         description: "Project 1 description",
         image: "/images/projects/1.png",
@@ -15,7 +15,7 @@ const projectsData = [
         previewUrl: "/",
     },
     {
-        id: 2,
+        id: 5,
         title: "Photography Portfolio Website",
         description: "Project 2 description",
         image: "/images/projects/2.png",
@@ -24,7 +24,7 @@ const projectsData = [
         previewUrl: "/",
     },
     {
-        id: 3,
+        id: 4,
         title: "E-commerce Application",
         description: "Project 3 description",
         image: "/images/projects/3.png",
@@ -33,7 +33,7 @@ const projectsData = [
         previewUrl: "/",
     },
     {
-        id: 4,
+        id: 3,
         title: "Food Ordering Application",
         description: "Project 4 description",
         image: "/images/projects/4.png",
@@ -42,7 +42,7 @@ const projectsData = [
         previewUrl: "/",
     },
     {
-        id: 5,
+        id: 2,
         title: "React Firebase Template",
         description: "Project 5 description",
         image: "/images/projects/5.png",
@@ -51,13 +51,13 @@ const projectsData = [
         previewUrl: "/",
     },
     {
-        id: 6,
-        title: "Full-stack Roadmap",
-        description: "Project 6 description",
-        image: "/images/projects/6.png",
-        tag: ["All", "Web"],
-        gitUrl: "/",
-        previewUrl: "/",
+        id: 1,
+        title: "Song Style Transfer",
+        description: "on Fall 2021",
+        image: "/images/projects/1.png",
+        tag: ["All", "ML"],
+        gitUrl: "https://github.com/honghulu/Song-Style-Transfer/tree/main",
+        previewUrl: "https://github.com/honghulu/Song-Style-Transfer/tree/main",
     },
 ]
 
