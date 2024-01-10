@@ -6,22 +6,40 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
     {
-        id: 21,
-        title: "Song Style Transfer",
-        description: "Fall 2021",
-        image: "/images/projects/song-style-transfer.png",
+        id: 22.4,
+        title: "Generate Novel Videos",
+        description: "Fall 2022",
+        image: "/images/projects/generate-novel-video.png",
         tag: ["All", "ML"],
-        gitUrl: "https://github.com/honghulu/Song-Style-Transfer",
-        previewUrl: "https://github.com/honghulu/Song-Style-Transfer/blob/main/README.md",
+        gitUrl: "https://github.com/honghulu/Generating-novel-videos-with-Background-Foreground-Panorama-Analysis",
+        previewUrl: "https://github.com/honghulu/Generating-novel-videos-with-Background-Foreground-Panorama-Analysis/blob/main/README.md",
     },
     {
-        id: 22.1,
+        id: 22.3,
         title: "Penguin's Adventure",
         description: "Summer 2022",
         image: "/images/projects/penguin-adventure.jpg",
         tag: ["All", "Game"],
         gitUrl: "https://github.com/honghulu/Penguin-Adventure",
         previewUrl: "https://github.com/honghulu/Penguin-Adventure/assets/135955524/d5559fff-4872-4815-a560-1318fd295b72",
+    },
+    {
+        id: 22.2,
+        title: "HM Recommendation System",
+        description: "Spring 2022",
+        image: "/images/projects/hm-recommendation-system.png",
+        tag: ["All", "Game"],
+        gitUrl: "https://github.com/honghulu/HM-Recommendation-System",
+        previewUrl: "/images/projects/hm-recommendation-system.pdf",
+    },
+    {
+        id: 22.1,
+        title: "Song Style Transfer",
+        description: "Spring 2022",
+        image: "/images/projects/song-style-transfer.png",
+        tag: ["All", "ML"],
+        gitUrl: "https://github.com/honghulu/Song-Style-Transfer",
+        previewUrl: "/images/projects/song-style-transfer.pdf",
     },
     {
         id: 19.3,
@@ -83,13 +101,13 @@ const ProjectsSection = () => {
                 />
                 <ProjectTag
                     onClick={handleTagChange}
-                    name="Web"
-                    isSelected={tag === "Web"}
+                    name="Game"
+                    isSelected={tag === "Game"}
                 />
                 <ProjectTag
                     onClick={handleTagChange}
-                    name="Mobile"
-                    isSelected={tag === "Mobile"}
+                    name="ML"
+                    isSelected={tag === "ML"}
                 />
             </div>
             <ul ref={ref} className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-12">
