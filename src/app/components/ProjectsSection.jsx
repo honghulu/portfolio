@@ -21,7 +21,7 @@ const projectsData = [
         image: "/images/projects/penguin-adventure.jpg",
         tag: ["All", "Game"],
         gitUrl: "https://github.com/honghulu/Penguin-Adventure",
-        previewUrl: "https://private-user-images.githubusercontent.com/135955524/295174415-d5559fff-4872-4815-a560-1318fd295b72.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQ4NjY4OTksIm5iZiI6MTcwNDg2NjU5OSwicGF0aCI6Ii8xMzU5NTU1MjQvMjk1MTc0NDE1LWQ1NTU5ZmZmLTQ4NzItNDgxNS1hNTYwLTEzMThmZDI5NWI3Mi5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMTEwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDExMFQwNjAzMTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zODQxZmIyMmY5MDE4MGE1OTIyM2E4YTc5NDRlYjNhMDk3OTkyYjUxNGVhMDg1NjY5OGE4YmRjNzI4OGNkZDUxJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.M1yf1WkvFXPbhn7krKoffUQJfIRrxPLUMQA-BiI_kNw",
+        previewUrl: "https://github.com/honghulu/Penguin-Adventure/assets/135955524/d5559fff-4872-4815-a560-1318fd295b72",
     },
     {
         id: 19.3,
