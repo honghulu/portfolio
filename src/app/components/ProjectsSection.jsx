@@ -6,6 +6,15 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
     {
+        id: 23.1,
+        title: "Evaluating Correctness of Text-to-Image Generations",
+        description: "Spring 2023",
+        image: "/images/projects/evaluating-correctness.png",
+        tag: ["All", "ML"],
+        gitUrl: "https://github.com/honghulu/Evaluate-correctness-of-AIGC",
+        previewUrl: "/images/projects/evaluating-correctness.pdf",
+    },
+    {
         id: 22.4,
         title: "Generate Novel Videos",
         description: "Fall 2022",
