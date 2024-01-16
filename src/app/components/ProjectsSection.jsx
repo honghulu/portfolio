@@ -37,7 +37,7 @@ const projectsData = [
         title: "HM Recommendation System",
         description: "Spring 2022",
         image: "/images/projects/hm-recommendation-system.png",
-        tag: ["All", "Game"],
+        tag: ["All", "ML"],
         gitUrl: "https://github.com/honghulu/HM-Recommendation-System",
         previewUrl: "/images/projects/hm-recommendation-system.pdf",
     },
